@@ -6,8 +6,10 @@ public class ex_arraysString {
         nomes[0] = "Vitoria";
         nomes[1] = "Freed";
         nomes[2] = "Huck";
-        System.out.println(nomes[0]);
-        System.out.println(nomes[1]);
-        System.out.println(nomes[2]);
+
+        for(int i = 0; i < nomes.length; i++) {
+            System.out.println(nomes[i]);
+
+        }
     }
 }
