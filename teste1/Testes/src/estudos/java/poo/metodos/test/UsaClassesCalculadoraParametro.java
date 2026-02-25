@@ -1,12 +1,10 @@
 package estudos.java.poo.metodos.test;
 
-import estudos.java.poo.metodos.dominio.CalculadoraParametro;
+import estudos.java.poo.metodos.dominio.Calculadora;
 
 public class UsaClassesCalculadoraParametro {
     public static void main(String[] args) {
-        CalculadoraParametro calculadora = new CalculadoraParametro();
-
-        //Chamando Metodo com parametro
+        Calculadora calculadora = new Calculadora();
         calculadora.somaNumero(5);
     }
 }

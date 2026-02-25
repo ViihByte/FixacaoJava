@@ -2,12 +2,10 @@ package estudos.java.poo.metodos.test;
 
 import estudos.java.poo.metodos.dominio.Calculadora;
 
-public class UsaClassesCalculadoraRetorno {
+public class UsaClassesCalculadoraVoid {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        int resultado = calculadora.calcularNum(5,2);
-        System.out.println(resultado);
+        calculadora.calculoDivisao(10,2);
     }
-
 
 }
