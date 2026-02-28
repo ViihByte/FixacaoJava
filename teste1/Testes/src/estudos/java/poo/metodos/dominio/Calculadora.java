@@ -28,4 +28,16 @@ public class Calculadora {
         }
         System.out.println("Não exite divisão por zero!");
     }
+
+
+    //VarArgs (No fim ele é um array tambem, só muda a chamada).
+    // não pode ter outro tipo de atributo dentro do parametro. Se tiver, o VarArgs tem que ser por ultimo
+    //Forma mais simples e pratica de um array no metodo
+    public void somaVarArgs(int...numeros){
+        int soma = 0;
+        for (int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
