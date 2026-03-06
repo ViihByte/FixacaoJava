@@ -1,4 +1,4 @@
-package estudos.java.poo.dominio;
+package estudos.java.poo.introducao.dominio;
 
 public class Carro {
     public String nome;

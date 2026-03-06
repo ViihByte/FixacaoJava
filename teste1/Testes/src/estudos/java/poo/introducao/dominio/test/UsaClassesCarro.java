@@ -1,6 +1,6 @@
-package estudos.java.poo.test;
+package estudos.java.poo.introducao.dominio.test;
 
-import estudos.java.poo.dominio.Carro;
+import estudos.java.poo.introducao.dominio.Carro;
 
 public class UsaClassesCarro {
     public static void main(String[] args) {
